@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylehome.css">
     <script defer src="script.js"></script>
+    <script src="contact.js"></script>
 </head>
 <body>
     <header>
@@ -16,31 +17,35 @@
         </div>
 
         <nav>
-            <a class="active" href="home.html">Home</a>
+            <a href="home.html">Home</a>
             <a href="about.html">About</a>
             <a href="projects.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <a class="active" href="contact.html">Contact</a>
         </nav>
     </header>
 
     <div>
         <aside></aside>
         <main>
-            <section>
-                <h2>
-                    Developer, Gamer, Musician, Athlete
-                </h2>
-                <p>
-                    I am new to the developing world and look to continue learning and growing. I am eager to get started full-time in the coding world. I work great on teams or by myself. I look forward to what the future holds.
-                </p>
-                <img src="JD.JPG" alt="JD Pic"/>
-            </section>
-             
-            <section>
-                <h3>
-                    “Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.” -Marcus Aurelius
-                </h3>
-            </section>
+            <h3>Contact Me:</h3>
+            <h2>Name:</h2>
+            <form action="">
+                <label for="name"></label>
+                <input type="text" name="name">
+            </form>
+            <h2>Email:</h2>
+            <form action="">
+                <label for="email"></label>
+                <input type="email" name="email">
+            </form>
+            <h2>Message Me:</h2>
+            <form action="">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </form>
+            <form action="success.html">
+            <button id="submit" type="submit">Submit</button>
+            </form>
+        
         </main>
         <aside></aside>
     </div>
