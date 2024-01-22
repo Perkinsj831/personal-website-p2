@@ -1,0 +1,165 @@
+/* --- Reset Settings --- */
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* --- Header --- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    width: 100vw;
+    border: 1px solid black;
+    background-color: black;
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+h1 {
+    margin-left: 1rem;
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+nav>a {
+    margin-right: .5rem;
+    font-size: 2.2rem;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    color: chartreuse;
+}
+
+.active{
+    border-bottom: 1px solid blueviolet;
+}
+
+/* --- End of Header ---*/
+
+/* --- Start of Main ---*/
+
+main {
+    min-height: 80vh;
+    min-width: 70vw;
+    background-color: rgb(43, 223, 43);
+}
+
+aside {
+    min-height: 80vh;
+    min-width: 15vw;
+    background-color: chartreuse;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body>div {
+    display: flex;
+}
+
+h2 {
+    color: black;
+    font-family: fantasy;
+    font-size: 1.5em;
+    margin-top: 1em;
+    border-style: solid;
+    border-color: black;
+}
+
+h3 {
+    color: blueviolet;
+    font-size: 1.5em;
+    margin-top: .5em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    color: blueviolet;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: .5em;
+    background-color: white;
+}
+
+h4 {
+    color: blueviolet;
+    font-size: 1.5em;
+    font-family: fantasy;
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+section {
+    color: blueviolet;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: .5em;
+    background-color: white;
+}
+
+h5 {
+    color: blueviolet;
+    font-size: 1.5em;
+    font-family: fantasy;
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main>div {
+    color: blueviolet;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: .5em;
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+main>img {
+    width: 10%;
+    height: auto;
+    position: relative;
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+/* --- End of Main --- */
+
+/* --- Start of Footer --- */
+
+footer {
+    width: 100vw;
+    background-color: black;
+    height: 10vh; 
+    display: flex;
+    justify-content: space-between;  
+}
+
+footer>img {
+    width: 12%;
+}
+
+
