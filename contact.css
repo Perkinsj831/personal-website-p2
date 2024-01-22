@@ -48,7 +48,7 @@ nav>a:hover {
     color: chartreuse;
 }
 
-.active{
+.active {
     border-bottom: 1px solid blueviolet;
 }
 
