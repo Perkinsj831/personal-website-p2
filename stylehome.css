@@ -118,6 +118,101 @@ section>img {
     margin-left: 40%;
     margin-bottom: 5em;
 }
+
+@media screen and (max-width: 480px) {
+    section>p {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    section>img {
+        width: 50%;
+        height: auto;
+        margin-top: 2em;
+        margin-left: 24%;
+        margin-bottom: 2em;
+    }
+
+    h1 {
+        margin-left: 1.5rem;
+        color: blueviolet;
+        font-family: cursive;
+        font-size: 1.5rem;
+    }
+    
+    nav>a {
+        margin-right: .1rem;
+        font-size: 1.5rem;
+        color: blueviolet;
+        text-decoration: none;
+        margin-left: .1rem;
+    }
+
+    img {
+        height: 100%;
+        width: 4em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    section>p {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    section>img {
+        width: 40%;
+        height: auto;
+        margin-top: 2em;
+        margin-left: 28%;
+        margin-bottom: 2em;
+    }
+
+    h1 {
+        margin-left: 1.5rem;
+        color: blueviolet;
+        font-family: cursive;
+        font-size: 2.0rem;
+    }
+    
+    nav>a {
+        margin-right: .5rem;
+        font-size: 1.5rem;
+        color: blueviolet;
+        text-decoration: none;
+        margin-left: .5rem;
+    }
+
+    img {
+        height: 100%;
+        width: 4em;
+    }
+} 
+
+@media screen and (min-width: 769px) {
+    section>p {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    section>img {
+        width: 35%;
+        height: auto;
+        margin-top: 2em;
+        margin-left: 32%;
+        margin-bottom: 2em;
+    }
+} 
+
 /* --- End of Main --- */
 
 /* --- Start of Footer --- */
