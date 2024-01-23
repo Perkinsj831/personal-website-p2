@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Success Page</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="success.css">
     <script src="success.js"></script>
 </head>
 <body>
+    <div>
+    <aside></aside>
+    <main>
     <h1>You Have Successfully Submitted Your Form.</h1>
-    <h2>Redirecting You in 5 Seconds...</h2>
+    <h2>Redirecting You in <span id="countdowntimer">5</span></h2>
+    <script>
+    var timeleft = 5;
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+    </script>
+    </main>
+    <aside></aside>
+    </div>
 </body>
 </html>

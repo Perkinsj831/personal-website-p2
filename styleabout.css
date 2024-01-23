@@ -158,11 +158,14 @@ footer {
     background-color: black;
     height: 10vh; 
     display: flex;
-    justify-content: space-between;  
+    justify-content: center;  
 }
 
-footer>img {
-    width: 12%;
+.image {
+    width: 2em;
+    margin-right: 3em;
+    margin-top: .7em;
+    height: 4em;
 }
 
 
